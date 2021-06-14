@@ -4,7 +4,9 @@ module.exports = {
     PASSWORD: "6a907a8304c00b34128b75c74b2cf83beb820a1a944629e14d887c932598d647",
     DB: "dd17odemp2gvne",
     dialect: "postgres",
-    ssl: true,
+    ssl: {
+        "rejectUnauthorized": false
+    },
     dialectOptions: {
         ssl: true
     },

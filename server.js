@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 require("./routes/tutorial.routes")(app);
 
 //set port, listen for requests
-const PORT = process.env.port || 8080;
+const PORT = process.env.port || 3000;
 console.log('started!')
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);

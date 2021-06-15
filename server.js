@@ -9,7 +9,7 @@ db.sequelize.sync({ force: true }).then(() => {
 });
 
 var corsOptions = {
-    origin: "https://tutorial-listing.herokuapp.com/" //Este valor provavelmente vai alterar quando subir em nuvem
+    origin: "*" //Este valor provavelmente vai alterar quando subir em nuvem
 };
 
 app.use(cors(corsOptions));

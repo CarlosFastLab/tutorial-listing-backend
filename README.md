@@ -9,7 +9,10 @@ This API is a basic CRUD for persisting, updating, filtering and removing Tutori
 
 ## Future goals
 * Once the API has been correctly implemented, it must be used on a React front-end application; ✔️
-* The Database ✔️, back-end API ✔️ and front-end application ❌ must be persisted in a cloud service (preferably Heroku).
+* The Database ✔️; 
+* back-end API ✔️; 
+* and front-end application ✔️; 
+* Must be persisted in a cloud service (preferably Heroku).
 
 ## Reference for the project:
 [Bezkoder - React + Node.js + Express + PostgreSQL: Build a CRUD App](https://bezkoder.com/react-node-express-postgresql/)

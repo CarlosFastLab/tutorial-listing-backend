@@ -1,5 +1,5 @@
 # What it is
-Exercise application using NodeJS, Express, Sequelize and Postgres.
+Exercise API using NodeJS, Express, Sequelize and Postgres.
 This API is a basic CRUD for persisting, updating, filtering and removing data from a listing.
 
 ## Goals for this API
